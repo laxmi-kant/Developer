@@ -1,5 +1,17 @@
-<html>
+<html >
 <head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
+<script >
+
+var app=angular.module("myApp", []);
+app.controller("FirstCtrl", function(){
+    this.name="Ravi";
+});
+
+</script>
+<body ng-app="myApp" ng-controller="FirstCtrl">
+
+
+</body>
 </html>
